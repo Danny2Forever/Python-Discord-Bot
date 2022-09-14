@@ -1,4 +1,4 @@
-# Python-Discord-Bot
+# Python Discord Bot
 <p>First you need to Create a .env file (Same at the python script directory). #filename .env</p>
 <p>Go to .env Write TOKEN='''Your discord bot Token'''</p>
 
