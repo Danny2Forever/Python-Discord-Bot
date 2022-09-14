@@ -1,3 +1,11 @@
 # Python-Discord-Bot
-First you need to Create a .env file (In the python directory).
-and Write TOKEN = '''Your discord bot Token'''
+<p>First you need to Create a .env file (Same at the python script directory). #filename .env</p>
+<p>Go to .env Write TOKEN='''Your discord bot Token'''</p>
+
+<h1>For library</h1>
+You need to these all.
+
+```
+pip install discord-ext-bot
+npm install dotenv --save
+```
