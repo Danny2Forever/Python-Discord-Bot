@@ -52,7 +52,7 @@ async def on_message(message):
         return
     
     if user_message.lower() == "ว่าไง":
-        await message.add_reaction('สวัสดีคุณนิวัตรครับ')
+        await message.channel.send('สวัสดีคุณนิวัตรครับ')
         return
 
 @client.event
