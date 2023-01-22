@@ -54,6 +54,13 @@ async def on_message(message):
     if user_message.lower() == "ว่าไง":
         await message.channel.send('สวัสดีคุณนิวัตรครับ')
         return
+    
+    if user_message.lower() == "!pic":
+        response_API = requests.get('https://picsum.photos/900')
+        picture = response_API.url
+        print(picture)
+        await message.channel.send(picture)
+        return
 
 @client.event
 async def on_ready():
