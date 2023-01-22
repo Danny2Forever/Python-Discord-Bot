@@ -8,3 +8,8 @@ You need to these all.
 pip install discord-ext-bot
 npm install dotenv --save
 ```
+
+Library for fetch API.
+```
+pip install requests
+```
