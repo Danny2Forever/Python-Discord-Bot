@@ -7,6 +7,8 @@ from datetime import datetime
 import asyncio
 import ffmpeg
 import random
+import requests
+import json
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
