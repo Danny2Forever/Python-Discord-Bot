@@ -11,7 +11,7 @@ import requests
 import json
 
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = os.getenv('TOKEN')
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix='!',intents=intents) 
 
